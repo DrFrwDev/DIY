@@ -3,9 +3,15 @@ body {
     background-size: cover;
     font-size: 50px;
     background-image: url(../images/ocean.webp);
-    text-align: center;
     background-attachment: fixed;
+    text-align: center;
 }
+
+nav {
+    position: relative;
+    border-radius: 10px;
+}
+
 
 .nav-list {
     cursor: pointer;
@@ -18,11 +24,24 @@ body {
     margin: 5px;
     padding: 5px;
     list-style: none;
-}
+ }
+
+ .service {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* border: 2px solid red; */
+    border-radius: 5%;
+    /* text-align: center; */
+    margin: 5px;
+    
+ }
+
 .service li {
     list-style: none;
-    color: aliceblue;
+    /* color: aliceblue; */
+    padding: 0 5px 0 0;
     background-color: rgba(0, 0, 0, 0.5);
+    /* border-radius: 5%; */
+    color: rgb(160, 160, 223);
 }
 
 div {
@@ -30,7 +49,7 @@ div {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1rem;
-    color: rgb(26, 168, 224);
+    color: rgba(26, 168, 224, .5);
     font-size: 2rem;
 }
 
@@ -68,12 +87,11 @@ p {
 } 
 
 p, img {
-    max-width: 650px;
-    max-height: 650px;
-    float: right;
+    max-width: 100vb;
+    /* float: right; */
     padding: 2px 2px;
     border-radius: 3vb;
-    opacity: 0.7;
+    /* opacity: 0.8; */
 }
 
  .footer {
@@ -90,6 +108,8 @@ p, img {
     border: 2px solid blue;
   }
 
-  .push {
-    align-items: end;
-  }
+  .col-4 {
+    text-align: center;
+    opacity: .7;
+ }
+ 

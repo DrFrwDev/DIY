@@ -1,10 +1,10 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-size: 50px;
     background-image: url(../images/ocean.webp);
     text-align: center;
-    background-attachment: fixed;
 }
 .nav-list {
     cursor: pointer;
@@ -72,11 +72,14 @@ p {
     padding: auto;
 }
 img {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 100vb;
     float: left;
-    padding: 2px 2px;
+    padding: 3px 3px;
     border-radius: 5vb;
+    opacity: 0.8;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
 }
 
 /* footer {
