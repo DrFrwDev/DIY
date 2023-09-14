@@ -7,6 +7,12 @@ body {
     text-align: center;
 }
 
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: bisque;
+    border-radius: 30%;
+}
+
 nav {
     position: relative;
     border-radius: 10px;
@@ -112,4 +118,15 @@ p, img {
     text-align: center;
     opacity: .7;
  }
+h4 {
+    display: flex;
+    width: 30%;
+    color:bisque;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h4 .telehealth {
+    
+}
+
  
